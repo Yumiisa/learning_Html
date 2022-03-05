@@ -35,16 +35,124 @@ ul{list-style-type:none;}
     background-attachment:fixed;
     background-size: cover;
     height: 400px;
+    padding: 20px 50px 20px 50px;
+    color: whitesmoke;
+    position: relative;
+    z-index: -100;
+
+}
+.mwelekeo{
+    position:absolute;
+    left: 50px;
+    bottom: 100px;
+    font-size: 2rem;
+
+}
+#watch {
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+    color: green;
+    padding: 10px;
+    margin: 10px;
+    font-size: medium;
+
 }
 .offers {
     display: flex;
     justify-content:space-evenly;
-    align-items:baseline; 
+    align-items:center; 
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+    z-index: 1000;
+    max-width: 1200px;
+    margin:-75px auto;
+    height: 150px;
+    background-color: white;
 }
+.news{
+    width: 100%;
+    margin-top: 100px;
+}
+   
 .Data{
     display: flex;
  justify-content: space-evenly;
 align-items: center;}
+.internet{
+    width: 100%;
+    margin-top: 100px;
+}
+.postpay {
+    border: 1px solid #e8e8e8;
+    border-radius: 2px;
+    background-color: white;
+    height: 600px;
+}
+.prepay{
+    color: black;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.service h3{
+    color:darkgreen;
+}
+.postpay h3,ul{
+    border-bottom: 1px;
+}
+.man img{
+    object-fit: cover;
+}
+.container{
+    border: 1px solid #e8e8e8;
+    border-radius: 2px;
+    background-color: white;
+    height: 600px;
+}
+.Angaza{
+    margin:20px ;
+}
+.connections{
+    margin-left: 50px;
+    padding: 20px;
+    font-size: large;
+}
+.headings{
+    display: flex;
+    align-items: flex-start;
+    margin:;
+    word-spacing:10px;
+}
+.my{margin-left: 20px;}
+.business{margin-left: 20px;}
+
+.money{
+    border:1px solid #e8e8e8;
+    border-radius: 5px;
+    background-color:white;
+    padding:10px;
+    font-size: larger;
+    height: 600px;
+word-spacing: 3px;}
+.money h3 {
+    color: green;
+    width: 150%;
+    height: auto;}
+.money button{
+   border: 1px solid #7bd192;
+   border-radius: 15px;
+   background-color:#7bd192;
+   color:white;
+   padding:10px;
+   margin: 10px;
+   font-size : medium;
+}
+.prepay h3, li{
+    border-bottom: 1px solid #727873;
+}
+
 .service{
   display: flex;
   justify-content: space-evenly;
@@ -75,16 +183,27 @@ align-items: center;}
   justify-content: space-evenly;
   align-items: center
 }
+.livelihood{
+    margin-left: 50px;
+    padding: 20px;
+    font-size: large;
+
+}
+.livelihood h1{
+    text-transform: capitalize;
+}
 .target{
     border:1px solid green;
     border-radius: 2px;
     background-color: green;
+    height: 600px;
 }
 .desc{color: white;
     margin: 20px;
     font-family: 'Courier New', Courier, monospace;}
 .bonus img{
     object-fit: cover;
+
 }
 #learn{ border: 1px solid white;
         border-radius: 15px ;
@@ -98,13 +217,15 @@ align-items: center;}
     border:1px solid #e8e8e8;
     border-radius: 5px;
     background-color:white;
+    height:600px;
+    }
 
-}
 .airtime{color:black;
     margin: 20px; 
     font-family: 'Courier New',
     Courier,
     monospace;}
+ 
     
 .tariffs img{
     object-fit: cover;}
@@ -121,19 +242,29 @@ align-items: center;}
    font-size: medium;
    }
 .budget{
-    width: 300px;
-    height: 500px;
+
     border:1px solid #e8e8e8;
     border-radius: 5px;
     background-color:white;
     padding: 10px;
     font-size: large;
+    height: 600px;
+    
 
 }
 .budget h3{
     color: green;
     width:150%;
     height: auto;
+}
+.budget button{
+border: 1px solid #7bd192;
+border-radius: 15px;
+background-color:#7bd192;
+color:white;
+padding:10px;
+margin: 10px;
+font-size : medium;
 }
 
 
